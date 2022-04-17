@@ -1,0 +1,23 @@
+{
+  "name": "alura-nextjs-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint", 
+    "server": "npm run build && npm run start",
+    "export": "next build && next export",
+    "static:server": "npx http-server ./out -c-1"
+  },
+  "keywords": [],
+  "author": "Anderson Lima",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
